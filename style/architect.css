@@ -1,0 +1,65 @@
+.work-sans-fonts {
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* sheared styles */
+.display-flex{
+    display: flex;
+}
+.text-grey{
+    color: #424242;
+}
+.btn-praimery{
+    background-color: #FF900E;
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 8px;
+    border: none;
+    font-size: 1rem;
+}
+/* header styles */
+/* nav related styles */
+.navbar{
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+}
+.navbar h2{
+    font-weight: 700;
+    font-size: 2.5rem;
+}
+.navbar ul{
+    gap: 20px;
+}
+.navbar ul li{
+    list-style: none;
+}
+.navbar ul li a{ 
+    text-decoration: none;
+    font-weight: 500;
+    color: black;
+}
+.navbar,.banner{
+    max-width: 1180px;
+    margin: 0 auto;
+}
+/* banner related styles */
+.banner-content{
+    max-width: 750px;
+    text-align: center;
+    margin: 20px auto 50px auto;
+}
+.banner-content h2{
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+.banner-img img{
+    width: 100%;
+}
