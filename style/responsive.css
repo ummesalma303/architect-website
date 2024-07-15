@@ -4,7 +4,7 @@
         flex-direction: column;
         text-align: center;
     }
-    .team-img-continer{
+    .team-img-continer,.facts-container{
         grid-template-columns: repeat(1,1fr);
     }
     .our-features{
@@ -17,7 +17,7 @@
         flex-direction: column-reverse;
         text-align: center;
     }
-    .team-img-continer{
+    .team-img-continer,.facts-container{
         grid-template-columns: repeat(2,1fr);
     }
     .our-features{
