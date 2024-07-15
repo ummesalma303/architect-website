@@ -13,9 +13,31 @@
 .display-flex{
     display: flex;
 }
+.text-praimary{
+    color: #FF900E;
+}
+/* dark 02 */
 .text-grey{
     color: #424242;
 }
+/* dark 03 */
+.text-light-grey{
+    color: #727272;
+}
+
+.section-title{
+    max-width: 42%;
+}
+.section-title h2{
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+.section-title p{
+    font-size: 1rem;
+    margin: 10px 0 15px 0;
+}
+
+/* button style */
 .btn-praimery{
     background-color: #FF900E;
     color: #fff;
@@ -23,6 +45,13 @@
     border-radius: 8px;
     border: none;
     font-size: 1rem;
+}
+main{
+    max-width: 1180px;
+    margin: 0 auto;
+}
+main > section{
+    margin-top: 100px;
 }
 /* header styles */
 /* nav related styles */
@@ -62,4 +91,39 @@
 }
 .banner-img img{
     width: 100%;
+}
+/* team and features related style */
+.teams{
+    align-items: center;
+    gap: 40px;
+}
+.team-img-continer{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 24px;
+}
+.team-img-continer img{
+    width: 100%;
+}
+.text-list{
+    color: black;
+}
+/* some facts related style */
+.facts-container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    text-align: center;
+    gap: 40px;
+}
+.fact-card{
+    border: 2px solid #FF900E;
+    padding: 40px 0;
+}
+.fact-card h4{
+    font-size: 2rem;
+    font-weight: 600;
+}
+.fact-card h4{
+    font-size: 1.25rem;
+    font-weight: 600;
 }
