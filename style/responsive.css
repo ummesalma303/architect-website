@@ -4,11 +4,16 @@
         flex-direction: column;
         text-align: center;
     }
-    .team-img-continer,.facts-container{
+    .team-img-continer,.facts-container,.sponsors-company{
         grid-template-columns: repeat(1,1fr);
     }
     .our-features{
         max-width: 90%;
+    }
+    .sponsors-company{
+        grid-template-columns: repeat(1,1fr);
+        justify-items: center;
+        gap: 39px;
     }
 }
 /* medioum size device */
@@ -22,5 +27,10 @@
     }
     .our-features{
         max-width: 90%;
+    }
+    .sponsors-company{
+        grid-template-columns: repeat(2,1fr);
+        justify-items: center;
+        gap: 39px;
     }
 }
